@@ -1,0 +1,248 @@
+
+
+
+.presenting {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+.people {
+    text-align: center;
+    color: white;
+}
+.present {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    z-index: 2;
+}
+
+body {
+    background-color: black;
+}
+#methaneMain {
+    display: inline;
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+#methane2 {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+#methane4 {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.text {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.button {
+    border: 1px black;
+    color: "#222222";
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .text:hover {
+    font-size: 34px;
+}
+
+/* 2 */
+
+#secondSlideP {
+    display: none;
+    word-wrap: break-word;
+    position: absolute;
+    min-height: 500px;
+    min-width: 100px;
+    max-height: 500px;
+    max-width: 300px;
+    top: 100px;
+    left: 150px;
+    z-index: 2;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+#secondSlideP2 {
+    display: none;
+    word-wrap: break-word;
+    position: absolute;
+    min-height: 500px;
+    min-width: 100px;
+    max-height: 500px;
+    max-width: 300px;
+    top: 100px;
+    left: 150px;
+    z-index: 2;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+.secSlideButton2 {
+    font-size: 20px;
+    top:50%; 
+    left:50%;
+    margin: -20px -50px; 
+    position: relative;
+}
+.secSlideButton2:hover {
+    font-size: 25px;
+    margin: -30px -50px; 
+}
+.secSlideButton1 {
+    font-size: 20px;
+    top:50%; 
+    left:50%;
+    margin: -20px -50px; 
+    position: relative;
+}
+.secSlideButton1:hover {
+    font-size: 25px;
+    margin: -30px -50px; 
+}
+/* 2 */
+
+.slide1{
+    padding-top: 6%;
+    padding-right: 1%;
+    margin: 0px auto;
+    width: 1400px;
+    height: 1100px;
+    border:  0.5px gray;
+    /* background-color: red; */
+    z-index: 3;
+}
+
+.slide1text{
+    font-size: 25px;
+    font-weight: 1000;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    /*border:1px solid black;*/
+    width: 25%;
+    height: 87.5px;
+    margin:4px;
+    float: left;
+}
+
+#metan{
+    position: relative;
+    bottom: 7%;
+    right: 2%;
+}
+
+#svva{
+    position: relative;
+    left: 50%;
+    bottom: 8%;
+    width: 25%;
+}
+#ksi{
+    position: relative;
+    top:50%;
+    left: 52%;
+    width: 25%;
+}
+#ksn{
+    position: relative;
+    top:50%;
+    width: 25%;
+}
+
+.razdelenie{
+    /*padding-bottom: 1px;*/
+    margin: 0 auto;
+    width: 50%;
+    height: 1px;
+    border: 1px solid rgb(124, 121, 121);
+}
+.childtekst{
+    font-size: 19px;
+}
+
+.infodiv{
+    /*border: 1px solid black;*/
+    position: relative;
+    width: 90%;
+    line-height: 105%;
+}
+
+#metaninfo{
+    position: relative;
+    left: 8%;
+}
+
+#ksninfo{
+    position: relative;
+    left: 0.5%;
+}
+
+#ksiinfo{
+    position: relative;
+    left: 4%;
+}
+#buttondiv1{
+    visibility: hidden;
+    position: relative;
+    top: 30%;
+    right: 25%;
+    margin: 0 auto;
+}
+
+#buttoncont{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 1000;
+    padding: 16px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0px auto;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#buttoncont:hover{
+    font-size: 35px;
+}
+::-webkit-scrollbar {
+    display: none;
+}

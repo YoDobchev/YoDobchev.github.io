@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src='./index.js'></script>
+    <link rel='stylesheet' href='./index.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body onload="load()">
+
+
+    <div class="videoDiv">
+        <video autoplay webkit-playsinline muted loop id="methaneMain" onended="stoppedMainVid()">
+            <source id="methaneSource" src="./webm/0001-0120.webm" type="video/webm">
+            <source id="methaneSource" src="./mp4/0001-0120.mp4" type="video/mp4">
+            Браузърът ви не позволява HTML5 видео.
+            <source id="methaneSource" src="./ogg/0001-0120.ogg" type="video/ogv">
+        </video>
+        <video muted id="methane2" onended="firstSlideFunc()">
+            <source id="methaneSource" src="./mp4/190.mp4" type="video/mp4">
+            <source id="methaneSource" src="./webm/190.webm" type="video/webm">
+            Браузърът ви не позволява HTML5 видео.
+        </video>
+    </div>
+
+    <div>
+        <video muted id="methane4" onended="on2ndSlideVidEnd()">
+            <source id="methaneSource" src="./mp4/200.mp4" type="video/mp4">
+            <!-- <source id="methaneSource" src="./webm/190.webm" type="video/webm"> -->
+            Браузърът ви не позволява HTML5 видео.
+        </video>
+        <div id="secondSlideP">
+            <p id="textSecondSlide"></p>
+            <!-- <button onclick="secondSlideButtonPress1()" class="secSlideButton1">продължи</button> -->
+        </div>
+        <div id="secondSlideP2">
+            <p id="textSecondSlide2"></p>
+            <button class="secSlideButton2">продължи</button>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="present" id="present">
+        <p id="presentors" class="text"></p>
+        <button onclick="removePresentersAndButon()" class="button" presentButton">
+            <font class="text">Презентиране</font>
+        </button>
+    </div>
+
+    <div class="slide1" id="main">
+        <div id="metan" class="slide1text">
+            <!--метан-->
+
+            Метан
+            <div class="razdelenie"></div>
+            <div class="infodiv" id="metaninfo">
+                <font class="childtekst" id="metaninfof">
+            </div>
+        </div>
+
+        <div id="svva" class="slide1text">
+            <!--свойства-->
+
+            Свойства
+            <div class="razdelenie"></div>
+            <div class="infodiv" id="svvainfo">
+                <font class="childtekst" id="svvainfof">
+            </div>
+        </div>
+        <div style='clear:both'></div>
+        <div id="ksn" class="slide1text">
+            <!--къде се намира-->
+
+            Къде се намира
+            <div class="razdelenie"></div>
+            <div class="infodiv" id="ksninfo">
+                <font class="childtekst" id="ksninfof">
+            </div>
+        </div>
+
+        <div id="ksi" class="slide1text">
+            <!--къде се използва-->
+
+            Къде се използвва
+            <div class="razdelenie"></div>
+            <div class="infodiv" id="ksiinfo">
+                <font class="childtekst" id="ksiinfof">
+            </div>
+        </div>
+
+        <div id="buttondiv1">
+            <button id="buttoncont" onclick="secondSlideStart()">Продължи</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+<!--
+
+Съвременната българска музика с фолклора, традицията и модерността
+1.Поява на нов жанр-"обработка на народна песен" или така наречаната фолклорна обработка
+- представители на това ново изкуство са композиторите:Филип Кутев, К. Кюркчиийски,Иван Спасов и Стефан Драгостинов
+2.Филип Кутев-майстор на така наречената "Фолклорна обработка".Той свързва европейските музикални традиции с автентичните български фолклорни мелодии, ритми, и гласове
+- творчеството му е наситено с характерни ярки мелодии и деликатна хармония негови песни са Туарелиси и др.
+-националният фолклорен асамбъл ... в София носи неговото име
+3.Красимир К.- 2011г.
+-творчеството му бележи нов етап в развитието на жанра "фолклорна обработка" обогатява ... народни със съвременни хармонии и ... .Негови известни песни са "Калиманко Денко Мъри"
+4.Иван Пасов(1934-1996г.)-в неговите композиции той съчетава българския фолклор със сложни композиционни техники ... по европейската 
+Избран е за международната академия за ...
+
+-->
