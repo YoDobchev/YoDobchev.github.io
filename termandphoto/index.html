@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <title>Физика - Проект</title>
+    <link rel="icon" href="./logo/znameNaBulgariq.png" type="image/x-icon">
+</head>
+
+<body onload="load()">
+    <div id="loading"></div>
+
+    <video muted class="video" id="video0" onended="vidEnd(`btn1`, `txt0D`)">
+        <source src="./mp4/1.mp4" type="video/mp4">
+        Браузърът ви не поддържа HTML5 видео.
+    </video>
+    <video muted loop class="video" id="video1" onended="vidEnd(`btn2`, null)">
+        <source src="./mp4/2.mp4" type="video/mp4">
+        Браузърът ви не поддържа HTML5 видео.
+    </video>
+    <video muted class="video" id="video2" onended="vidEnd(`btn3`, `txt1D`)">
+        <source src="./mp4/3.mp4" type="video/mp4">
+        Браузърът ви не поддържа HTML5 видео.
+    </video>
+    <video muted class="video" id="video3" onended="vidEnd(`btn4`, `txt2D`)">
+        <source src="./mp4/4.mp4" type="video/mp4">
+        Браузърът ви не поддържа HTML5 видео.
+    </video>
+    <input class="sl1" id="sl1" type="range" min="1" max="20" oninput="sl1Change()" value="0">
+    <p id="sl1T">t: -40°C R: 166.8kΩ</p>
+    <video muted class="video" id="video4" onended="vidEnd(`btn5`, `txt3D`)">
+        <source src="./mp4/5.mp4" type="video/mp4">
+        Браузърът ви не поддържа HTML5 видео.
+    </video>
+    <video muted loop class="video" id="video5" onended="vidEnd(`btn6`, null)">
+        <source src="./mp4/6.mp4" type="video/mp4">
+        Браузърът ви не поддържа HTML5 видео.
+    </video>
+    <video muted class="video" id="video6" onended="vidEnd(`btn7`, `txt4D`)">
+        <source src="./mp4/7.mp4" type="video/mp4">
+        Браузърът ви не поддържа HTML5 видео.
+    </video>
+    <video muted class="video" id="video7" onended="vidEnd(`btn8`, `txt5D`)">
+        <source src="./mp4/8.mp4" type="video/mp4">
+        Браузърът ви не поддържа HTML5 видео.
+    </video>
+    <input class="sl2" id="sl2" type="range" min="1" max="20" oninput="sl2Change()" value="0">
+    <p id="sl2T">Светлина: 0.1cd R: 1000kΩ</p>
+    <video muted class="video" id="video8" onended="vidEnd(null, null)">
+        <source src="./mp4/9.mp4" type="video/mp4">
+        Браузърът ви не поддържа HTML5 видео.
+    </video>
+    <h3 id="contributor"></h3><br>
+    <div onclick="nextSlide(`btn0`,`btn1`, `contributor`, `txt0D`)" id="btn0" class="btn btn-one">
+        <span>Презентиране</span>
+    </div>
+    <div onclick="nextSlide(`btn1`, `btn2`, `txt0D`, null)" id="btn1" class="btn btn-one">
+        <span>Продължи</span>
+    </div>
+    <div onclick="nextSlide(`btn2`, `btn3`, null, `txt1D`)" id="btn2" class="btn btn-one">
+        <span>Продължи</span>
+    </div>
+    <div onclick="nextSlide(`btn3`, `btn4`, `txt1D`, `txt2D`)" id="btn3" class="btn btn-one">
+        <span>Продължи</span>
+    </div>
+    <div onclick="nextSlide(`btn4`, `btn5`, `txt2D`, `txt3D`)" id="btn4" class="btn btn-one">
+        <span>Продължи</span>
+    </div>
+    <div onclick="nextSlide(`btn5`, `btn6`, `txt3D`, null)" id="btn5" class="btn btn-one">
+        <span>Продължи</span>
+    </div>
+    <div onclick="nextSlide(`btn6`, `btn7`, null, `txt4D`)" id="btn6" class="btn btn-one">
+        <span>Продължи</span>
+    </div>
+    <div onclick="nextSlide(`btn7`, null, `txt4D`, `txt5D`)" id="btn7" class="btn btn-one">
+        <span>Продължи</span>
+    </div>
+    </div>
+    <div class="txt" id="txt0D">
+        <p id="txt0"></p>
+    </div>
+    <div class="txt" id="txt1D">
+        <p id="txt1"></p>
+    </div>
+    <div class="txt" id="txt2D">
+        <p id="txt2"></p>
+    </div>
+    <div class="txt" id="txt3D">
+        <p id="txt3"></p>
+    </div>
+    <div class="txt" id="txt4D">
+        <p id="txt4"></p>
+    </div>
+    <div class="txt" id="txt5D">
+        <p id="txt5"></p>
+    </div>
+</body>
+
+</html>
+
+<!--
+
+Съвременната българска музика с фолклора, традицията и модерността
+1.Поява на нов жанр-"обработка на народна песен" или така наречаната фолклорна обработка
+- представители на това ново изкуство са композиторите:Филип Кутев, К. Кюркчиийски,Иван Спасов и Стефан Драгостинов
+2.Филип Кутев-майстор на така наречената "Фолклорна обработка".Той свързва европейските музикални традиции с автентичните български фолклорни мелодии, ритми, и гласове
+- творчеството му е наситено с характерни ярки мелодии и деликатна хармония негови песни са Туарелиси и др.
+-националният фолклорен асамбъл ... в София носи неговото име
+3.Красимир К.- 2011г.
+-творчеството му бележи нов етап в развитието на жанра "фолклорна обработка" обогатява ... народни със съвременни хармонии и ... .Негови известни песни са "Калиманко Денко Мъри"
+4.Иван Пасов(1934-1996г.)-в неговите композиции той съчетава българския фолклор със сложни композиционни техники ... по европейската 
+Избран е за международната академия за ...
+
+-->

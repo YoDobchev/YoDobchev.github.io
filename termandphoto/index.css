@@ -1,0 +1,245 @@
+#contributor {
+  position: absolute;
+  left: 38.5%;
+  top: 45%;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  opacity: 90%;
+}
+.video {
+  display: inline;
+  z-index: 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+body {
+  background-color: white;
+}
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+  z-index: 2;
+  }
+.btn-one {
+  background-color: rgba(244, 141, 93, 0.22);
+  position: absolute;
+  color: white;
+  z-index: 1;
+}
+#btn0 {
+  left: 43%;
+  top: 50%;
+}
+#btn1 {
+  left: 56.5%;
+  top: 44%;
+}
+#btn2 {
+  left: 43%;
+  top: 50%;
+}
+#btn3 {
+  left: 43%;
+  top: 51%;
+}
+#btn4 {
+  left: 43%;
+  top: 37%;
+}
+#btn5 {
+  left: 72.5%;
+  top: 42%;
+}
+#btn6 {
+  left: 43%;
+  top: 50%;
+}
+#btn7 {
+  left: 67.5%;
+  top: 62%;
+}
+.btn-one:hover {
+  font-size: large;
+  background-color: rgba(244, 141, 93, 0.3);
+}
+.txt {
+  display: inline; 
+  position:absolute;
+  overflow-wrap: break-word;
+  z-index: 3;
+}
+#txt0D {
+  left: 45%;
+  top: 20%;
+  width: 700px;
+  height: 200px;
+}
+#txt1D {
+  left: 26%;
+  top: 10%;
+  width: 900px;
+  height: 400px;
+}
+#txt2D {
+  left: 31%;
+  top: 10%;
+  width: 700px;
+  height: 200px;
+}
+#txt3D {
+  left: 61%;
+  top: 15%;
+  width: 700px;
+  height: 200px;
+}
+#txt4D {
+  left: 56%;
+  top: 15%;
+  width: 700px;
+  height: 400px;
+}
+#txt5D {
+  left: 60%;
+  top: 30%;
+  width: 700px;
+  height: 400px;
+}
+@-webkit-keyframes smoked {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes smoked {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-o-keyframes smoked {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes smoked {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+#txt0 {
+  background: linear-gradient(270deg, #2a3834, #6e2929, #3f6e29);
+  background-size: 600% 600%;
+  -webkit-animation: smoked 15s ease infinite;
+  -moz-animation: smoked 15s ease infinite;
+  -o-animation: smoked 15s ease infinite;
+  animation: smoked 15s ease infinite;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+#txt1 {
+  background: linear-gradient(270deg, #2a3834, #6e2929, #3f6e29);
+  background-size: 600% 600%;
+  -webkit-animation: smoked 15s ease infinite;
+  -moz-animation: smoked 15s ease infinite;
+  -o-animation: smoked 15s ease infinite;
+  animation: smoked 15s ease infinite;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+#txt2 {
+  background: linear-gradient(270deg, #2a3834, #6e2929, #3f6e29);
+  background-size: 600% 600%;
+  -webkit-animation: smoked 15s ease infinite;
+  -moz-animation: smoked 15s ease infinite;
+  -o-animation: smoked 15s ease infinite;
+  animation: smoked 15s ease infinite;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+#txt3 {
+  background: linear-gradient(270deg, #2a3834, #6e2929, #3f6e29);
+  background-size: 600% 600%;
+  -webkit-animation: smoked 15s ease infinite;
+  -moz-animation: smoked 15s ease infinite;
+  -o-animation: smoked 15s ease infinite;
+  animation: smoked 15s ease infinite;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+#txt4 {
+  background: linear-gradient(270deg, #2a3834, #6e2929, #3f6e29);
+  background-size: 600% 600%;
+  -webkit-animation: smoked 15s ease infinite;
+  -moz-animation: smoked 15s ease infinite;
+  -o-animation: smoked 15s ease infinite;
+  animation: smoked 15s ease infinite;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+#txt5 {
+  background: linear-gradient(270deg, #2a3834, #6e2929, #3f6e29);
+  background-size: 600% 600%;
+  -webkit-animation: smoked 15s ease infinite;
+  -moz-animation: smoked 15s ease infinite;
+  -o-animation: smoked 15s ease infinite;
+  animation: smoked 15s ease infinite;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+#loading {
+  display: absolute;
+  background-color:black;
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  z-index:1000;
+}
+.sl1 {
+  position: absolute;
+  top: 5%;
+  left: 46%;
+  z-index: 1000;
+  display: none;
+}
+#sl1T {
+  font-size: 35px;
+  color: white;
+  left: 41.5%;
+  top: 5%;
+  position: absolute;
+  z-index: 1000;
+  display: none;
+}
+.sl2 {
+  position: absolute;
+  top: 8%;
+  left: 70%;
+  z-index: 1000;
+  display: none;
+}
+#sl2T {
+  font-size: 35px;
+  color: white;
+  left: 63%;
+  top: 9%;
+  position: absolute;
+  z-index: 1000;
+  display: none;
+}
+::-webkit-scrollbar { 
+  width: 0 !important;
+  display: none; 
+}
