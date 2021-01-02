@@ -45,10 +45,10 @@ function nextSlide(idButCurrent, idButNext, txtCurrent, txtNext) {
         document.getElementById(`video${videoNumber}`).loop = false;
     }
     nextSlideB = true;
-    if (vidEnded == true || videoNumber == 3) {
-        if (videoNumber == 5) {
-            console.log("xdd")
-        }
+    if (videoNumber == 5) {
+        document.getElementById(`video5`).playbackRate = 2;
+    }
+    if (vidEnded == true || videoNumber == 3 || videoNumber == 7) {
         document.getElementById("sl1").style.display = "none";
         document.getElementById("sl2").style.display = "none";
         document.getElementById("sl1T").style.display = "none";
@@ -61,7 +61,7 @@ function nextSlide(idButCurrent, idButNext, txtCurrent, txtNext) {
         if (videoNumber == 6) {
             document.getElementById("sl2").style.display = "inline";
             document.getElementById("sl2T").style.display = "inline";
-            document.getElementById("video8").pause();
+            document.getElementById("video7").pause();
         }
         if (videoNumber != 1 && videoNumber != 5) {
             if (idButNext != null) {
@@ -93,7 +93,7 @@ function nextSlide(idButCurrent, idButNext, txtCurrent, txtNext) {
             default:
                 console.log("")
         }
-        console.log(videoNumber)
+
         document.getElementById(`video${videoNumber}`).style.display = "none";
         document.getElementById(`video${videoNumber + 1}`).style.display = "inline";
         if (browser == "firefox" && videoNumber != 2 && videoNumber != 6) {
@@ -111,10 +111,9 @@ function nextSlide(idButCurrent, idButNext, txtCurrent, txtNext) {
 function vidEnd(idButNext, txtNext) {
     vidEnded = true;
     if (videoNumber == 2 || videoNumber == 6) {
-
         nextSlideB = true;
     }
-    if (nextSlideB == true || videoNumber == 2) {
+    if (nextSlideB == true || videoNumber == 2 || videoNumber == 6) {
         document.getElementById("sl1").style.display = "none";
         document.getElementById("sl2").style.display = "none";
         document.getElementById("sl1T").style.display = "none";
@@ -128,7 +127,7 @@ function vidEnd(idButNext, txtNext) {
         if (videoNumber == 6) {
             document.getElementById("sl2").style.display = "inline";
             document.getElementById("sl2T").style.display = "inline";
-            document.getElementById("video8").pause();
+            document.getElementById("video7").pause();
         }
         if (videoNumber != 1 && videoNumber != 5) {
             if (idButNext != null) {
@@ -159,11 +158,10 @@ function vidEnd(idButNext, txtNext) {
                 txtEff("txt5", "Видове фоторезистори. Устройствата управлявани от фоторезистори можем да ги разделим на два типа според скоростта на възприемане на сигнали - бавни, когато автоматичните устройства не изискват голяма скорост на реагиране и бързи, които се базират се на фотодиоди, използват се за предаване на информация по оптични линии, честотата на превключване при тях достига до стотици милиони и милиарди превключвания в секунда.");
                 break;
             default:
-                console.log("LAINAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+                console.log("")
         }
         document.getElementById(`video${videoNumber}`).style.display = "none";
         document.getElementById(`video${videoNumber + 1}`).style.display = "inline";
-        console.log(videoNumber)
         if (browser == "firefox" && videoNumber != 2 && videoNumber != 6) {
             document.getElementById(`video${videoNumber + 1}`).setAttribute("autoplay", true);
         }
@@ -180,14 +178,16 @@ var r1 = [166.8, 120.5, 88, 65, 36.4, 27.6, 21, 16.3, 12.7, 10, 7.8, 6.2, 5, 4, 
 var i1 = [0.1, 1, 5, 10, 15, 20, 40, 70, 100, 150, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 10000]
 var r2 = [1000, 120.6, 91.4, 77.3, 53.5, 44.2, 41.8, 36.2, 31, 18.6, 9.2, 8.8, 7.3, 6.9, 5.2, 4.4, 3, 2.1, 0.9, 0.1]
 function sl1Change() {
+    document.getElementById("video3").pause();
     document.getElementById("video3").currentTime = document.getElementById("sl1").value * 0.1;
     document.getElementById("sl1T").innerHTML = `t: ${t1[document.getElementById("sl1").value - 1]}°C R: ${r1[document.getElementById("sl1").value - 1]}kΩ`;
-    document.getElementById("video3").pause();
+
 }
 function sl2Change() {
+    document.getElementById("video7").pause();
     document.getElementById("video7").currentTime = document.getElementById("sl2").value * 0.1;
     document.getElementById("sl2T").innerHTML = `Светлина: ${i1[document.getElementById("sl2").value - 1]}cd R: ${r2[document.getElementById("sl2").value - 1]}kΩ`;
-    document.getElementById("video8").pause();
+
 }
 function txtEff(id, txt) {
     var i = 0;
