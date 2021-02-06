@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+  --primary-color: #00CF5F;
+  --secondary-color: #422C73;
+  --complimentary-color: #D95763;
+  --contrast-color: #8B0000;
+  --light-color: #601E32;
+  }
+  
+  .container {
+    background: #191919;
+    min-height: 100vh;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  nav a {
+      font-size: 40px;
+      color: #fff;
+      text-decoration: none;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  nav {
+      position: fixed;
+      left: 0;
+      z-index: 50;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      height: 100vh;
+      background: var(--secondary-color);
+  }
+  
+  section {
+      position: absolute;
+      top: 0;
+      height: 100vh;
+      width: 0;
+      opacity: 0;
+      transition: all ease-in .5s;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      
+  } 
+  .txt {
+    color: #fff;
+    font-size: 30px;
+    top: 10%;
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+    left: 14%;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+    }
+  .noselect { 
+    -user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+ } 
+  section h1 {
+      position: absolute;
+      /* left: 45%; */
+      
+      color: #fff;
+      font-size: 50px;
+      text-transform: uppercase;
+      opacity: 0;
+  }
+  /* section p {
+    justify-content: center;
+  }
+   */
+  /* Styles applied on trigger */
+  section:target {
+      opacity: 1;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+  }
+  
+  section:target h1 {
+      opacity: 0;
+      animation: 2s fadeIn forwards .5s;
+  }
+  
+  #first {
+    background:var(--primary-color);
+  }
+  #second {
+      background: var(--complimentary-color);
+  }
+  
+  #third {
+      background: var(--contrast-color);
+  }
+  
+  #fourth {
+      background: var(--light-color);
+  }
+  
+  @keyframes fadeIn {
+      100% { opacity:1 }
+  }
