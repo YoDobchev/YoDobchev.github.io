@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/proteins/static/css/main.6b22e71b.chunk.css",
+    "main.js": "/proteins/static/js/main.c5acf081.chunk.js",
+    "main.js.map": "/proteins/static/js/main.c5acf081.chunk.js.map",
+    "runtime-main.js": "/proteins/static/js/runtime-main.7efab70a.js",
+    "runtime-main.js.map": "/proteins/static/js/runtime-main.7efab70a.js.map",
+    "static/js/2.82c8ce4e.chunk.js": "/proteins/static/js/2.82c8ce4e.chunk.js",
+    "static/js/2.82c8ce4e.chunk.js.map": "/proteins/static/js/2.82c8ce4e.chunk.js.map",
+    "static/js/3.63514774.chunk.js": "/proteins/static/js/3.63514774.chunk.js",
+    "static/js/3.63514774.chunk.js.map": "/proteins/static/js/3.63514774.chunk.js.map",
+    "index.html": "/proteins/index.html",
+    "static/css/main.6b22e71b.chunk.css.map": "/proteins/static/css/main.6b22e71b.chunk.css.map",
+    "static/js/2.82c8ce4e.chunk.js.LICENSE.txt": "/proteins/static/js/2.82c8ce4e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/proteins/static/media/CoolveticaCondensedRg-Regular.7ff9d9b8.svg",
+    "static/media/de.cfadee09.png": "/proteins/static/media/de.cfadee09.png",
+    "static/media/prot.321ac4ff.png": "/proteins/static/media/prot.321ac4ff.png",
+    "static/media/sustav.0eee5ca1.mp4": "/proteins/static/media/sustav.0eee5ca1.mp4",
+    "static/media/vichna1.f52b69ad.jpeg": "/proteins/static/media/vichna1.f52b69ad.jpeg",
+    "static/media/vichna2.c94ed25c.png": "/proteins/static/media/vichna2.c94ed25c.png",
+    "static/media/vichna3.fd47f355.png": "/proteins/static/media/vichna3.fd47f355.png",
+    "static/media/vichna4.02d5fec6.png": "/proteins/static/media/vichna4.02d5fec6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7efab70a.js",
+    "static/js/2.82c8ce4e.chunk.js",
+    "static/css/main.6b22e71b.chunk.css",
+    "static/js/main.c5acf081.chunk.js"
+  ]
+}
