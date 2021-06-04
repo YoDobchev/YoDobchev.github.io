@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/infrasound/static/css/main.ba95b457.chunk.css",
+    "main.js": "/infrasound/static/js/main.4b3f9eb5.chunk.js",
+    "main.js.map": "/infrasound/static/js/main.4b3f9eb5.chunk.js.map",
+    "runtime-main.js": "/infrasound/static/js/runtime-main.6acb0a2f.js",
+    "runtime-main.js.map": "/infrasound/static/js/runtime-main.6acb0a2f.js.map",
+    "static/js/2.33f53033.chunk.js": "/infrasound/static/js/2.33f53033.chunk.js",
+    "static/js/2.33f53033.chunk.js.map": "/infrasound/static/js/2.33f53033.chunk.js.map",
+    "static/js/3.185d3d38.chunk.js": "/infrasound/static/js/3.185d3d38.chunk.js",
+    "static/js/3.185d3d38.chunk.js.map": "/infrasound/static/js/3.185d3d38.chunk.js.map",
+    "index.html": "/infrasound/index.html",
+    "static/css/main.ba95b457.chunk.css.map": "/infrasound/static/css/main.ba95b457.chunk.css.map",
+    "static/js/2.33f53033.chunk.js.LICENSE.txt": "/infrasound/static/js/2.33f53033.chunk.js.LICENSE.txt",
+    "static/media/aircraft.abd5c9c7.jpg": "/infrasound/static/media/aircraft.abd5c9c7.jpg",
+    "static/media/cats.b233d4c1.mp4": "/infrasound/static/media/cats.b233d4c1.mp4",
+    "static/media/explosion.47f977c1.jpg": "/infrasound/static/media/explosion.47f977c1.jpg",
+    "static/media/slon.7bdb37c5.png": "/infrasound/static/media/slon.7bdb37c5.png",
+    "static/media/used.2f8de1d6.mp4": "/infrasound/static/media/used.2f8de1d6.mp4",
+    "static/media/vulcano.887ce9b5.jpg": "/infrasound/static/media/vulcano.887ce9b5.jpg",
+    "static/media/waterfall.6b326750.jpg": "/infrasound/static/media/waterfall.6b326750.jpg",
+    "static/media/waves.e85edf0e.jpg": "/infrasound/static/media/waves.e85edf0e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6acb0a2f.js",
+    "static/js/2.33f53033.chunk.js",
+    "static/css/main.ba95b457.chunk.css",
+    "static/js/main.4b3f9eb5.chunk.js"
+  ]
+}
