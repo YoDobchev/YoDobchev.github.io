@@ -1,0 +1,129 @@
+body {
+    background-color: #4c3424;
+    /* transition: opacity .5s; */
+    
+    overflow: hidden;
+}
+h1{
+    margin: 300px 0 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.titleFont {
+    color: white;
+    margin: 10vh 0 0 0;
+    font-size: 4vw;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.headerFont {
+    font-size: medium;
+    font-family: 'Neucha', cursive;
+}
+.textFont {
+    vertical-align: top;
+    font-size: 2vw;
+    color: white;
+    font-family: 'Neucha', cursive;
+    display: inline-block;
+    margin: 0 0 0 2vw;
+    word-wrap: break-word;
+}
+.imgStyle {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(99, 72, 24);
+    max-width: 45vw;
+    max-height: 45vh;
+}
+
+#bookmarks {
+
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: calc(64.5vw - 53px * 12);
+    right: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.bookmarkStyle {
+    cursor: pointer;
+    margin-right: 1vw;
+    float: left;
+}
+/* CSS */
+.startBtn {
+    text-align: center;
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: absolute;
+    top: 55vh;
+    left: 46vw;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.startBtn:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    /* left: 0; */
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.startBtn:hover:after {
+    transform: translate(0, 0);
+}
+
+.startBtn:active {
+    background-color: #ffdeda;
+    outline: 0;
+}
+
+.startBtn:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .startBtn {
+        padding: 0 40px;
+    }
+}
