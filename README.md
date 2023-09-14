@@ -19,7 +19,7 @@
 
 - [School fighter](https://yodobchev.github.io/school-fighter/src/)
 
-- [Termistor and photoresistor](https://yodobchev.github.io/school-fighter/src/)
+- [Termistor and photoresistor](https://yodobchev.github.io/termandphoto)
 
 ## Games
 - [Race](https://yodobchev.github.io/Games/systezanie/start.html)
